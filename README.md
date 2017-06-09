@@ -1,4 +1,4 @@
-# CAFFE for YOLO99000
+# CAFFE for YOLO-9000
 
 ## Reference
 
