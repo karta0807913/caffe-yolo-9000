@@ -5,14 +5,11 @@ test_initialization: false
 display: 20
 average_loss: 100
 lr_policy: "fixed"
-base_lr: 0.00001
+base_lr: 0.0001
 gamma: 0.4
 stepsize: 40000
-#stagelr: 0.0001
-#stageiter: 10000
 max_iter: 4000000
 momentum: 0.9
 weight_decay: 0.0005
-snapshot: 10000
-snapshot_prefix: "./models/senpai_data"
-solver_mode: CPU
+snapshot: 1000
+snapshot_prefix: "./models/voc_model"
