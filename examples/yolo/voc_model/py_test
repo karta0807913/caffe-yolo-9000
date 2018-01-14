@@ -1,0 +1,3 @@
+#python yolo_v2_test.py -p voc_darknet_deploy.prototxt -w voc_model_iter_2410000.caffemodel -m yolo9000_train.binaryproto -i VOCdevkit/VOC2012/JPEGImages/2008_000003.jpg -t VOCdevkit/VOC2012/Annotations/2008_000003.xml
+#python yolo_v2_test.py -p voc_darknet_deploy.prototxt -w voc_model_iter_2410000.caffemodel -m yolo9000_train.binaryproto -i ./dog.jpg
+python yolo_v2_test.py -p voc_darknet_deploy.prototxt -w voc_model_iter_2410000.caffemodel -m yolo9000_train.binaryproto -l test_2012.txt
