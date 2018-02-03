@@ -85,7 +85,7 @@ namespace yolo_v2{
                     data[obj_index].confidence = res[box_index + 4 * screen_size];
 
                     int pred_class = 0;
-                    int best_score = 0;
+                    float best_score = 0;
                     for(int class_index = 0; class_index < classNumber; ++class_index){
                         if(res[box_index + (5 + class_index) * screen_size] > best_score){
                             best_score = res[box_index + (5 + class_index) * screen_size];
